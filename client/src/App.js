@@ -34,7 +34,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
     function getQuote() {
-      axios.get("http://localhost:5000/hello").then(response => {
+      axios.get("https://artdeel.herokuapp.com/hello").then(response => {
         console.log(response)
       });
     }
